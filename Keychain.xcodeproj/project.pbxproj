@@ -44,6 +44,7 @@
 		91056D4A299C2DD10030FA9D /* KeychainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeychainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91056D4E299C2DD10030FA9D /* KeychainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainUITests.swift; sourceTree = "<group>"; };
 		91056D50299C2DD10030FA9D /* KeychainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91056D5D299C2EF40030FA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		91056D32299C2DD00030FA9D /* Keychain */ = {
 			isa = PBXGroup;
 			children = (
+				91056D5D299C2EF40030FA9D /* Info.plist */,
 				91056D33299C2DD00030FA9D /* KeychainApp.swift */,
 				91056D35299C2DD00030FA9D /* ContentView.swift */,
 				91056D37299C2DD10030FA9D /* Assets.xcassets */,
@@ -420,6 +422,7 @@
 				DEVELOPMENT_TEAM = 6CZ66996QP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Keychain/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +452,7 @@
 				DEVELOPMENT_TEAM = 6CZ66996QP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Keychain/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

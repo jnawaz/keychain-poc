@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Link("Get certs", destination: URL(string: "http://localhost:80/iphone.p13")!)
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
